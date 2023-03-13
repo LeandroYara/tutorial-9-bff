@@ -4,4 +4,4 @@ from .esquemas import *
 
 @strawberry.type
 class Query:
-    reservas: typing.List[Reserva] = strawberry.field(resolver=obtener_reservas)
+    reservas: typing.List[Solicitud] = strawberry.field(resolver=obtener_solicitudes)
