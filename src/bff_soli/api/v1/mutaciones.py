@@ -2,8 +2,8 @@ import strawberry
 import typing
 
 from strawberry.types import Info
-from bff_web import utils
-from bff_web.despachadores import Despachador
+from bff_soli import utils
+from bff_soli.despachadores import Despachador
 
 from .esquemas import *
 
